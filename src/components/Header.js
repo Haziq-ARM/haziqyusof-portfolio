@@ -37,7 +37,7 @@ const Header = () => {
 						</ul>
 					</div>
 
-					<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+					<div className="highlights">
 						<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
 						<img src={'https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white'} className="item-img" />
 						<img src={'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white'} className="item-img" />

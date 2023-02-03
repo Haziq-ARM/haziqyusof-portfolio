@@ -18,7 +18,7 @@ const About = () => {
 					</p>
 
 					<p>
-						I do have a list of things that I want to learn such as Vuejs, NextJs, NestJS, CI/CD, RabbitMQ
+					I am constantly learning new tools and technologies. My next target is to learn VueJS, NextJS and Apache Kafka
 					</p>
 					<div className="row">
 

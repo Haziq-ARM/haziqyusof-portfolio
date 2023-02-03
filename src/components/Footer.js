@@ -3,7 +3,7 @@ const Footer = () => {
 		<footer>
 			<div className="row">
 				<div className="twelve columns">
-					Built with ❤️ by Haziq Yusof, powered by ReactJS
+					Built with ❤️ by Haziq Yusof, powered by ReactJS, hosted by Github Pages
 					<ul className="social-links">
 						<li>
 							<a href="https://www.linkedin.com/in/hazhafizi/" target="_blank"><i className={'fa fa-linkedin'}></i></a>
