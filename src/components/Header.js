@@ -21,7 +21,7 @@ const Header = () => {
 					<div className="banner-text">
 						<div className="sub-headline">Hi there,</div>
 						<h1 className="responsive-headline">I am Haziq Yusof.</h1>
-						<h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a Full Stack Software Developer.
+						<h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am an intermediate Full Stack Software Developer.
 						</h3>
 						<hr />
 						<ul className="social">

@@ -37,10 +37,32 @@ const Resume = () => {
                 Full Stack Software Developer
                 <span>&bull;</span> <em className="date">September 2019 - Current</em></p>
               <p>
-                Achivement
+                Full Stack Software developer at IMI, working on the AI-powered workforce management platform called Rhonda.
               </p>
+              <ul>
+                <li>Built a clock/shift management software on cloud with support for QR code scanning</li>
+                <li>Integrated Twilio API for phone service automation</li>
+                <li>Remotely managed a team to work on cloud solution project</li>
+                <li>Managed software integration and deployment on Cloud</li>
+              </ul>
             </div>
+          </div>
 
+          <div className="row item">
+            <div className="twelve columns">
+              <h3>Pinjam.co</h3>
+              <p className="info">
+                Back End Developer
+                <span>&bull;</span> <em className="date">October 2020 -  March 2021 (6 Months)</em></p>
+              <p>
+                Contract Backend Developer, worked remotely from Canada for a company in Malaysia
+              </p>
+              <ul>
+                <li>Designed database and system structure for backend system</li>
+                <li>Developed backend APIs for frontend integration</li>
+                <li>Integrated payment gateway by Curlec with the backend system that successfully manage recurring payment from client every day</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

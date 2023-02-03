@@ -14,9 +14,12 @@ const About = () => {
 
 					<h2>About Me</h2>
 					<p>
-					I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.
+					I am intermediate Full Stack Software Developer with 3 years of experience. Currently working at a start-up company in Ottawa, Canada. I graduated from the University of Ottawa with BSc in Computer Engineering. I love to spend my free time with sports like Volleyball and Badminton.
 					</p>
 
+					<p>
+						I do have a list of things that I want to learn such as Vuejs, NextJs, NestJS, CI/CD, RabbitMQ
+					</p>
 					<div className="row">
 
 						<div className="columns contact-details">
@@ -29,7 +32,7 @@ const About = () => {
 									haziq_yusof@hotmail.com
 								</span>
 								<br></br>
-								<span>haziqyusof.co</span>
+								<span>haziqyusof.com</span>
 							</p>
 						</div>
 					</div>
