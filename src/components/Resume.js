@@ -68,36 +68,58 @@ const Resume = () => {
       </div>
 
 
-      <div className="row skill">
+      <div id="skill" className="row skill">
 
-        <div className="three columns header-col">
+        <div className="skill-title">
           <h1><span>Skills</span></h1>
         </div>
 
-        <div className="nine columns main-col">
-
-          <p>
-            {/* {resumeData.skillsDescription} */}
-          </p>
-
-          <div className="bars">
-
-            <ul className="skills">
-              {/* {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                } */}
-
-            </ul>
-
+        <div className="skill-container">
+          <div className="">
+            <p className="skill-p">Language</p>
+            <img src={'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E'} className="item-img" />
+            <img src={'https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54'} className="item-img" />
+            <img src={'https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white'} className="item-img" />
+          </div>
+          <div className="">
+            <p className="skill-p">Frontend Framework</p>
+            <img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+            <img src={'https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white'} className="item-img" />
+          </div>
+          <div className="">
+            <p className="skill-p">Backend Framework</p>
+            <img src={'https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB'} className="item-img" />
+            <img src={'https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi'} className="item-img" />
+            <img src={'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray'} className="item-img" />
           </div>
 
+          <div className="">
+            <p className="skill-p">DevOps</p>
+            <img src={'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white'} className="item-img" />
+          </div>
+
+          <div className="">
+            <p className="skill-p">Database</p>
+            <img src={'https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white'} className="item-img" />
+          </div>
+
+          <div className="">
+            <p className="skill-p">Others</p>
+            <img src={'https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white'} className="item-img" />
+          </div>
         </div>
 
       </div>
