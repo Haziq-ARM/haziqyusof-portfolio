@@ -127,6 +127,12 @@ header .responsive-headline {
    text-shadow: none !important;
 }
 
+header .highlights {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -360,6 +366,7 @@ ul#nav li.current a { color: #2dd4bf; }
    -webkit-text-fill-color: transparent;
    text-shadow: none;
 }
+#portfolio .primary img {background: linear-gradient(to right, #3b82f6, #2dd4bf); padding: 5px;border-radius: 5px;}
 
 #portfolio .secondary h1 {
    background: linear-gradient(to right,#8b5cf6, #d946ef);
@@ -367,6 +374,7 @@ ul#nav li.current a { color: #2dd4bf; }
    -webkit-text-fill-color: transparent;
    text-shadow: none;
 }
+#portfolio .secondary img {background: linear-gradient(to left, #8b5cf6, #d946ef); padding: 5px;border-radius: 5px;}
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
