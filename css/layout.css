@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -118,6 +118,13 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
+header .responsive-headline {
+   /* color: rgb(243 244 246/1) !important */
+   background: -webkit-linear-gradient(#3b82f6, #2dd4bf) !important;
+   -webkit-background-clip: text !important;
+   -webkit-text-fill-color: transparent !important;
+   text-shadow: none !important;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -179,7 +186,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #2dd4bf; }
 
 
 /* ------------------------------------------------------------------ */
@@ -228,6 +235,10 @@ ul#nav li.current a { color: #F06000; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+
+#about {
+   text-align: left;
 }
 
 
@@ -284,6 +295,15 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume .item {
+   margin-top: 20px;
+}
+
+#resume li {
+   text-align: left;
+   list-style-type: disc;
 }
 
 /*----------------------------------------------*/
@@ -976,7 +996,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #2dd4bf;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
