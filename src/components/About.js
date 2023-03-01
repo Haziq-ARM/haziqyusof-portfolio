@@ -14,7 +14,7 @@ const About = () => {
 
 					<h2>About Me</h2>
 					<p>
-					I am intermediate Full Stack Software Developer with 3 years of experience. Currently working at a start-up company in Ottawa, Canada. I graduated from the University of Ottawa with BSc in Computer Engineering. I love to spend my free time with sports like Volleyball and Badminton.
+					I am an intermediate Full Stack Software Developer with 3 years of experience. Currently working at a start-up company in Ottawa, Canada. I graduated from the University of Ottawa with BSc in Computer Engineering. I love to spend my free time with sports like Volleyball and Badminton.
 					</p>
 
 					<p>

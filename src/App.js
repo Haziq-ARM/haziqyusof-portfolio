@@ -1,20 +1,15 @@
 import './App.css';
-import Header from './components/Header';
-import About from './components/About'
-import Resume from './components/Resume'
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Main from './pages/Main';
+import SeleniumBot from './pages/SeleniumBot';
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
     <div className="App">
-      <Header/>
-      <About/>
-      <Resume/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<Main/>}></Route>
+        <Route path='/article/selenium' element={<SeleniumBot/>}></Route>
+      </Routes>
     </div>
   );
 }
