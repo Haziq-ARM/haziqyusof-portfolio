@@ -15,6 +15,7 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. Article
 
 ===================================================================== */
 
@@ -883,3 +884,43 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+/* ------------------------------------------------------------------ */
+/* i. Article
+/* ------------------------------------------------------------------ */
+
+#article {
+   padding: 48px 0px;
+}
+
+#article .content {
+   -webkit-filter: invert(100%);
+}
+
+#article .article-header {
+   height:  300px;
+   background-color: #d4d4d4;
+   margin: 20px 0px;
+}
+
+#article .article-image {
+   height: 300px;
+   object-fit: scale-down;
+}
+
+#article section {
+   padding: 20px;
+   text-align: left;
+}
+
+#article section ul {
+   list-style-type: disc;
+   list-style-position: inside;
+}
+
+#article section p {
+   margin: 0 0 10px 0;
+}
+
+#article img {
+   -webkit-filter: invert(100%);
+}
