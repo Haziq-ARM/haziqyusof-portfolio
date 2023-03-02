@@ -4,7 +4,11 @@ const SeleniumBot = () => {
 	return (
 		<BaseArticle>
 			<h1>Selenium Bot</h1>
-
+			<div>
+				<img src={'https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54'} className="item-img" />
+				<img src={'https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white'} className="item-img" />
+				<img src={'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white'} className="item-img" />
+			</div>
 			<div className="article-header">
 				<img alt="selenium-header" src={'/images/article/selenium2.jpeg'} className="article-image" />
 			</div>
@@ -50,6 +54,22 @@ const SeleniumBot = () => {
 
 				<p>Lambda Function/Bot will be trigged by the EventBridge by 6PM EST. Once the Lambda triggered, the python script containing Selenium automation will keep retrying to access the reservation system. Once the reservation system is ready for booking, the bot will automatically choose the appropriate sport and time, and automatically fill in my personal information.</p>
 				<p>Every step of the process, Selenium will take a screenshot and store it in the S3 bucket. This is for debugging purposes because sometimes error occured in one of the steps and it is easier for me to see what is actually happening at each of the steps</p>
+			</section>
+
+			<section>
+				<h2>Things to improve</h2>
+
+				<p>I believe there are some other things that can be improved such as</p>
+
+				<ul>
+					<li>Add notification - I need an update to see if my bot run successfully or failed</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Resources</h2>
+
+				<a href="https://github.com/akiraro/LamBot">Github</a> - This repo contains the Selenium code with Lambda layer file
 			</section>
 		</BaseArticle>
 	)

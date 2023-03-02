@@ -354,7 +354,7 @@ ul#nav li.current a { color: #2dd4bf; }
 #portfolio .flex-container {display: flex; margin: 0px 0px 50px 0px;}
 #portfolio .image-container {flex: 0 0 auto;}
 #portfolio .content-container {flex: 1 1 auto; padding: 0px 30px; text-align: left;}
-#portfolio .item-img {height: 250px; width: 350px; border-radius: 10px;}
+#portfolio .item-img-article {height: 250px; width: 350px; border-radius: 10px;}
 #portfolio .content-container h1{
    text-align: left;
    font: 24px/24px 'opensans-bold', sans-serif;
@@ -366,16 +366,19 @@ ul#nav li.current a { color: #2dd4bf; }
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    text-shadow: none;
+   margin-bottom: 20px;
 }
-#portfolio .primary img {background: linear-gradient(to right, #3b82f6, #2dd4bf); padding: 5px;border-radius: 5px;}
+#portfolio .primary .item-img-article {background: linear-gradient(to right, #3b82f6, #2dd4bf); padding: 5px;border-radius: 5px;}
 
 #portfolio .secondary h1 {
    background: linear-gradient(to right,#8b5cf6, #d946ef);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    text-shadow: none;
+   margin-bottom: 20px;
 }
-#portfolio .secondary img {background: linear-gradient(to left, #8b5cf6, #d946ef); padding: 5px;border-radius: 5px;}
+#portfolio .secondary .item-img-article {background: linear-gradient(to left, #8b5cf6, #d946ef); padding: 5px;border-radius: 5px;}
+#portfolio .button-container { display: flex; gap: 10px;}
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
@@ -889,7 +892,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 
 #article {
-   padding: 48px 0px;
+   padding: 60px 0px;
 }
 
 #article .content {
@@ -899,7 +902,6 @@ footer .social-links li:first-child { margin-left: 0; }
 #article .article-header {
    height:  300px;
    background-color: #d4d4d4;
-   margin: 20px 0px;
 }
 
 #article .article-image {
