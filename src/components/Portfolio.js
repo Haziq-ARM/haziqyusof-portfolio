@@ -26,8 +26,17 @@ const Portfolio = () => {
 						<div className="flex-container secondary">
 							<div className="content-container">
 								<h1>Ivent - Event Management</h1>
-								<p>Intially developed to manage wedding reception event, later progress to be a generic event management platform where user able to create and manage event.</p>
-								<button>READ MORE</button>
+								<div>
+									<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray'} className="item-img" />
+								</div>
+								<p>Event management web application. It is currently in progress and only support a specific type of event which is wedding reception. This application will help bride and groom manage their guest, wedding registry and attendance of their wedding reception</p>
+								<div className="button-container">
+									<button>READ MORE</button>
+									<a href="http://ivent.haziqyusof.com"><button>DEMO</button></a>
+								</div>
 							</div>
 							<div className="image-container">
 								<img alt="Ivent project" src={'images/portfolio/Ivent.png'} className="item-img-article" />
@@ -39,10 +48,14 @@ const Portfolio = () => {
 							</div>
 							<div className="content-container">
 								<h1>Movie Search Engine</h1>
+								<div>
+									<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'} className="item-img" />
+								</div>
 								<p>A simple movie search engine, powered by tmdB</p>
 								<div className="button-container">
-								<button>READ MORE</button>
-								<a href="http://movieengine.haziqyusof.com"><button>DEMO</button></a>
+									<button>READ MORE</button>
+									<a href="http://movieengine.haziqyusof.com"><button>DEMO</button></a>
 								</div>
 							</div>
 						</div>
