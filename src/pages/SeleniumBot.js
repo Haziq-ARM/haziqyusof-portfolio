@@ -36,7 +36,7 @@ const SeleniumBot = () => {
 			<section>
 				<h2>Bot Architecture</h2>
 				<p>
-					For this bot project, I use the follow tools and technologies.
+					For this bot project, I use the following tools and technologies.
 				</p>
 				<ul>
 					<li>Selenium</li>

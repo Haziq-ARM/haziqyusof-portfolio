@@ -25,21 +25,18 @@ const Portfolio = () => {
 						</div>
 						<div className="flex-container secondary">
 							<div className="content-container">
-								<h1>Ivent - Event Management</h1>
+								<h1>Twitter Bot (Scraper)</h1>
 								<div>
-									<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
-									<img src={'https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'} className="item-img" />
-									<img src={'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white'} className="item-img" />
-									<img src={'https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray'} className="item-img" />
+									<img src={'https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white'} className="item-img" />
 								</div>
-								<p>Event management web application. It is currently in progress and only support a specific type of event which is wedding reception. This application will help bride and groom manage their guest, wedding registry and attendance of their wedding reception</p>
+								<p>Twitter bot to scrape tweet from a specific twitter user account. Bot was powered by scrapy along with scrapy-playwright package and tkinter for the GUI part</p>
 								<div className="button-container">
-									<button>READ MORE</button>
-									<a href="http://ivent.haziqyusof.com"><button>DEMO</button></a>
+								<Link className="scrolltop" to={"/article/twitter"}><button>READ MORE</button></Link>
 								</div>
 							</div>
 							<div className="image-container">
-								<img alt="Ivent project" src={'images/portfolio/Ivent.png'} className="item-img-article" />
+								<img alt="Ivent project" src={'images/article/twitter.png'} className="item-img-article" />
 							</div>
 						</div>
 						<div className="flex-container primary">
@@ -59,6 +56,26 @@ const Portfolio = () => {
 								</div>
 							</div>
 						</div>
+						<div className="flex-container secondary">
+							<div className="content-container">
+								<h1>Ivent - Event Management</h1>
+								<div>
+									<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray'} className="item-img" />
+								</div>
+								<p>Event management web application. It is currently in progress and only support a specific type of event which is wedding reception. This application will help bride and groom manage their guest, wedding registry and attendance of their wedding reception</p>
+								<div className="button-container">
+									<button>READ MORE</button>
+									<a href="http://ivent.haziqyusof.com"><button>DEMO</button></a>
+								</div>
+							</div>
+							<div className="image-container">
+								<img alt="Ivent project" src={'images/portfolio/Ivent.png'} className="item-img-article" />
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
