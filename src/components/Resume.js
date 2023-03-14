@@ -113,6 +113,14 @@ const Resume = () => {
           </div>
 
           <div className="">
+            <p className="skill-p">Automation/Testing Framework</p>
+            <img src={'https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white'} className="item-img" />
+            <img src={'https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e'} className="item-img" />
+            <img src={'https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white'} className="item-img" />
+          </div>
+
+          <div className="">
             <p className="skill-p">Others</p>
             <img src={'https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
             <img src={'https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white'} className="item-img" />
