@@ -352,7 +352,7 @@ ul#nav li.current a { color: #2dd4bf; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 
 #portfolio .flex-container {display: flex; margin: 0px 0px 50px 0px;}
-#portfolio .image-container {flex: 0 0 auto;}
+#portfolio .image-container {display: flex; flex: 0 0 auto; align-items: center;}
 #portfolio .content-container {flex: 1 1 auto; padding: 0px 30px; text-align: left;}
 #portfolio .item-img-article {height: 250px; width: 350px; border-radius: 10px;}
 #portfolio .content-container h1{
