@@ -75,7 +75,29 @@ const Portfolio = () => {
 								<img alt="Ivent project" src={'images/portfolio/Ivent.png'} className="item-img-article" />
 							</div>
 						</div>
-
+						<div className="flex-container primary">
+							<div className="image-container">
+								<img alt="Search engine project" src={'images/portfolio/BeSentry.png'} className="item-img-article" />
+							</div>
+							<div className="content-container">
+								<h1>BeSentry</h1>
+								<div>
+									<img src={'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white'} className="item-img" />
+									<img src={'https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white'} className="item-img" />
+								</div>
+								<p>A community based website where public can view any data related to road hazard such as pothole, debris, broken traffic light, etc. Public also able to sign up and login to contribute to the community</p>
+								<p>It is currently in progress as many features will be added. I am also planning to collaborate with local municipality by sharing the data</p>
+								<div className="button-container">
+									<button>READ MORE</button>
+									<a href="http://besentry.com"><button>DEMO</button></a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
