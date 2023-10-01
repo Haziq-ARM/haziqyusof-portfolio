@@ -378,7 +378,7 @@ ul#nav li.current a { color: #2dd4bf; }
    margin-bottom: 20px;
 }
 #portfolio .secondary .item-img-article {background: linear-gradient(to left, #8b5cf6, #d946ef); padding: 5px;border-radius: 5px;}
-#portfolio .button-container { display: flex; gap: 10px;}
+#portfolio .button-container { display: flex; gap: 10px; justify-content: left;}
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
@@ -930,5 +930,9 @@ footer .social-links li:first-child { margin-left: 0; }
 @media only screen and (min-width: 400px) {
    #portfolio .image-container {justify-content: center;}
    #portfolio .content-container h1{margin-top: 20px;}
+
+}
+
+@media only screen and (max-width: 900px){
    #portfolio .button-container {justify-content: center;}
 }
